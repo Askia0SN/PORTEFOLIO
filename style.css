@@ -14,6 +14,7 @@ header p{
     font-size: 15px;
     background: repeating-linear-gradient(to right,rgb(209, 206, 215),rgb(24, 143, 195));
     padding: 8px;
+    margin-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     
@@ -37,17 +38,30 @@ body{
 
 }
 
-.nom{
-    color: rgb(0, 0, 0);
+.nom {
+    background: linear-gradient(90deg, #0099c3, #a6a4a4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 #présentation{
-    margin-top: 120px;
+    margin-top: 80px;
     text-align: center;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 #Fonction{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-
 }
+
+.images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 400px;
+    object-fit: cover; /* optionnel pour bien remplir la zone */
+    border-radius: 30px;
+}
+
