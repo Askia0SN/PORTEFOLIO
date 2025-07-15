@@ -1,6 +1,53 @@
 header{
-    background-color: black;
+    background-color: #1c1c1c;
     font-size: 20px;
     font-family: serif;
-    margin: 70;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header p{
+    font-size: 15px;
+    background: repeating-linear-gradient(to right,rgb(209, 206, 215),rgb(24, 143, 195));
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.MENU  {
+    margin-right: 150px;
+    margin-left: 150px;
+    display: inline-block;
+    color: aliceblue;
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #ffffff, #d1d1d1); /* Dégradé fluide */
+    background-repeat: no-repeat;         /* Empêche les bandes */
+    background-attachment: fixed;         /* Optionnel : reste fixe pendant le scroll */
+    background-size: 100% 100vh;          /* S'étire sur toute la hauteur */
+
+}
+
+.nom{
+    color: rgb(0, 0, 0);
+}
+
+#présentation{
+    margin-top: 120px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#Fonction{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
 }
